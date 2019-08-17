@@ -1,0 +1,83 @@
+
+    
+        body{
+            background-image: url("file:///home/saket/Downloads/WhatsApp%20Image%202019-08-17%20at%209.53.11%20AM.jpeg");
+            background-repeat:repeat;
+        }  
+        
+        a:hover {
+            background-color: lightseagreen;
+          }
+          a:active {
+            background-color: lightgreen;
+          } 
+
+         .flex-box {
+    display: flex;
+    border: 0px dashed lightcoral;
+    margin: 1px;
+    margin-left: 500px;
+    margin-right: 200px;
+    margin-top: 5px;
+  }
+ 
+.flex-box div {
+margin: 10px;
+padding: 5px;
+border: 1 px solid white;
+color: white;
+margin-left: 50px;
+margin-top: 1px;
+height: 100px;
+width: 800px;
+}
+#box1 {
+flex-direction:row;
+margin-left: 450px;
+width: 500px;
+text-anchor: middle;
+}
+#box6 {
+margin-left: 0px;
+height: 60px;
+background-color: yellowgreen;
+margin-right: 5px;
+flex-direction:row;
+color: black;
+}
+#box7 {
+margin-left: 0px;
+height: 60px;
+background-color:red;
+margin-right: 5px;
+flex-direction:row;
+color: black;
+}
+#box2 {
+margin-left: 20px;
+height: 100px;
+width: 400px;
+text-anchor: middle;
+
+}
+#box3 {
+margin-left: 120px;
+height: 100px;
+width: 400px;
+margin-top: 1px;
+}
+#box4 {
+margin-left: 180px;
+height: 100px;
+width: 400px;
+}
+#box5 {
+margin-left: 50px;
+margin-right: 50px;
+background-color:red;
+height: 50px;
+width: 1200px;
+margin-top: 50px;
+float: center;
+}
+
